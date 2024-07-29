@@ -1,14 +1,14 @@
 FROM python:3.9-slim
 
-# set the working directory
+# Set the working directory
 WORKDIR /app
 
-# install dependencies
+# Install dependencies
 COPY ./requirements.txt /app
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-# copy the scripts to the folder
+# Copy the scripts to the folder
 COPY . /app
 
-# start the server
-CMD ["python", "OKX_new_script.py", "2024-01-01", "2024-07-29", "Latest_News_from_OKX"]
+# Start the server
+CMD ["python", "OKX_news_script.py", "2024-01-01", "2024-07-29", "Latest_News_from_OKX"]
