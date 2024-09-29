@@ -1,4 +1,4 @@
-## Web scraping news articles from sites stored on excel files
+## Web scraping news articles stored on customized excel files
 
 ### Summary: Here is below an example of using scripts with the Docker Desktop application to help you get information (news articles in this case) with any operating system you may have.
 
