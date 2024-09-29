@@ -10,7 +10,7 @@
 
 3. **Open a terminal**
 
-4. **Run this in your terminal to create the set up on the Docker site for download:**
+4. **Run this in your terminal to create the set up on the Docker site for download (don't forget the dot at the end !):**
 
         docker build -t okx_news_img .
 
