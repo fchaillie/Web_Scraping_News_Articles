@@ -8,7 +8,7 @@
 
 2. **Install, sign up and open the Docker Desktop application on your computer**
 
-3. **In your terminal run this command with Docker Desktop application open (choose the image name and don't forget the dot at the end !):**
+3. **In your terminal run this with the Docker Desktop application open (choose the image name and don't forget the dot at the end !):**
 
         docker build -t okx_news_img .
 
