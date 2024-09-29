@@ -4,7 +4,7 @@
 
 #### Steps to web scrape the news articles from the site into clickable links in an excel file for the time period you need:
 
-1. **Install all the files from this repository on your computer**
+1. **Install all the files from this repository on your computer at the current path location to your terminal**
 
 2. **Install the Docker software on your computer**
 
