@@ -1,8 +1,8 @@
 ## Getting the news articles from the crypto exchange site OKX between the chosen dates
 
-### Summary: I made all the files available from Docker In order to avoid problems that would arise with installing the files on different operating systems or on a remote server, it is good to package the files with Docker.
+### Summary: All the files here create a container on Docker from which you download a package in a virtual environment on your operating system that avoids problems that could arise if you installed directly all the files on your operating system.
 
-#### Steps to get the news on your computer:
+#### Steps to get the news articles links in an excel file for the time period you need:
 
 1. **Install all the files from this repository on your computer**
 
@@ -10,10 +10,10 @@
 
 3. **Open a command terminal**
 
-4. **Run this command in your command terminal to create the set up on the Docker site for download:**
+4. **Run this in your command terminal to create the set up on the Docker site for download:**
 
         docker build -t okx_news_img .
 
-5. **Finally run this command in your command terminal to get the news articles between your chosen dates with the file name you want:**
+5. **Finally run this in your command terminal to get the news articles between your chosen dates with the excel file name you want:**
 
         docker run -v .:/app okx_news_img python OKX_news_script.py 2024-05-01 2024-07-01 Name_of_file
