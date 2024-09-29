@@ -14,4 +14,4 @@
 
         docker run -v .:/app cool_news_img python Web_scraping_news_articles_script.py 2024-05-01 2024-07-01 Name_of_file
 
-5. **Please contact me for web scraping tasks !
+5. **Please contact me for web scraping tasks !**
