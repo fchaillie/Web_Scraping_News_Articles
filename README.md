@@ -1,8 +1,8 @@
-## Getting news articles from the crypto exchange site OKX for a chosen period
+## Web scraping news articles from the crypto exchange site OKX for a chosen period
 
 ### Summary: All the files here create a container on Docker from which you download a package in a virtual environment on your operating system that avoids problems that could arise if you installed directly all the files on your operating system.
 
-#### Steps to get the news articles links in an excel file for the time period you need:
+#### Steps to web scrape the news articles from the site into clickable links in an excel file for the time period you need:
 
 1. **Install all the files from this repository on your computer**
 
