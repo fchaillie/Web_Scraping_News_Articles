@@ -8,7 +8,7 @@
 
 2. **Install and open the Docker Desktop application**
 
-3. **In your Windows terminal, run this command with the Docker Desktop application open and running (choose the image name you want and don't forget the dot !):**
+3. **In your Windows terminal, run this command with the Docker Desktop application open and running (choose the image name you want and don't forget the dot after the whitespace !):**
 
         docker build -t cool_news_img .
 
