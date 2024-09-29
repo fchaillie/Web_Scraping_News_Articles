@@ -15,3 +15,5 @@
 4. **Finally run this command to get the news articles in an excel file in a folder you name here for the time period you choose. The image name needs to be followed by the .py file, the start date, the end date and the name of the folder. Enjoy !**
 
         docker run -v .:/app cool_news_img python Web_scraping_news_articles_script.py 2024-05-01 2024-07-01 Name_of_file
+
+5. **Please contact me for web scraping anything you want off the net !
