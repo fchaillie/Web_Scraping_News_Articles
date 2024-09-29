@@ -1,19 +1,17 @@
 ## Web scraping news articles from the crypto exchange site OKX for a chosen period
 
-### Summary: All the files here create a container on Docker from which you download a package in a virtual environment on your operating system that avoids problems that could arise if you installed directly all the files on your operating system.
+### Summary: All the files here create a container on Docker from which you download a package in a virtual environment on your operating system that avoids different problems that could arise if you installed directly all the files on your specific operating system.
 
-#### Steps to web scrape the news articles from the site into clickable links in an excel file for the time period you need:
+#### Steps to web scrape the news articles from the OKX site:
 
-1. **Install all the files from this repository on your computer at the current path location to your terminal**
+1. **Install all the files from this repository on your computer in a folder with no other file in it**
 
-2. **Install the Docker software on your computer**
+2. **Install, sign up and open the Docker Desktop application on your computer**
 
-3. **Open a terminal**
-
-4. **Run this in your terminal to create the set up on the Docker site for download (don't forget the dot at the end !):**
+3. **In your terminal run this command to create the image in the Docker Desktop application (don't forget the dot at the end !):**
 
         docker build -t okx_news_img .
 
-5. **Finally run this in your terminal to get the news articles between your chosen dates with the excel file name you want:**
+5. **Finally run this command to get the news articles in an excel file in a folder you name here for the time period you need:**
 
         docker run -v .:/app okx_news_img python OKX_news_script.py 2024-05-01 2024-07-01 Name_of_file
