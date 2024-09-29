@@ -12,6 +12,6 @@
 
         docker build -t okx_news_img .
 
-5. **Finally run this command to get the news articles in an excel file in a folder you name here for the time period you need:**
+5. **Finally run this command to get the news articles in an excel file in a folder you name here for the time period you need. The .py file needs to be followed by the start date, the end date and the name of your folder:**
 
-        docker run -v .:/app okx_news_img python OKX_news_script.py 2024-05-01 2024-07-01 Name_of_file
+        docker run -v .:/app okx_news_img python Web_scraping_news_articles_script.py 2024-05-01 2024-07-01 Name_of_file
