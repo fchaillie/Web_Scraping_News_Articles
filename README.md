@@ -8,12 +8,12 @@
 
 2. **Install the Docker software on your computer**
 
-3. **Open a command terminal**
+3. **Open a terminal**
 
-4. **Run this in your command terminal to create the set up on the Docker site for download:**
+4. **Run this in your terminal to create the set up on the Docker site for download:**
 
         docker build -t okx_news_img .
 
-5. **Finally run this in your command terminal to get the news articles between your chosen dates with the excel file name you want:**
+5. **Finally run this in your terminal to get the news articles between your chosen dates with the excel file name you want:**
 
         docker run -v .:/app okx_news_img python OKX_news_script.py 2024-05-01 2024-07-01 Name_of_file
