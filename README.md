@@ -1,12 +1,12 @@
 ## Web scraping financial news to customized excel files
 
-### Summary: Here is below an example of using scripts with the Docker Desktop application to help you get information (financial news in this case) with any operating system you may have.
+### Summary: Here is below an example of using scripts with the Docker Desktop application to help you get information (financial news in this case) with any operating system you may have. The commands shown below are for a Windows terminal.
 
 1. **Install all the files from this repository in a folder with no extra file in it**
 
 2. **Install and open the Docker Desktop application**
 
-3. **In your Windows terminal, run this command with the Docker Desktop application open and running (choose the image name you want and don't forget the dot after the whitespace !):**
+3. **In your terminal, run this command with the Docker Desktop application open and running (choose the image name you want and don't forget the dot after the whitespace !):**
 
         docker build -t cool_news_img .
 
