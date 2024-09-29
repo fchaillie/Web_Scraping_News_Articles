@@ -1,6 +1,6 @@
-## Get the News from the OKX Site for the chosen dates by running scripts from Docker
+## Getting the news articles from the crypto exchange site OKX between the chosen dates with scripts downloaded from Docker
 
-### Summary: I decided to put all the files needed for this task on Github. It is a good solution for versioning and for working together with other colleagues on this project. In order to avoid problems that would arise with installing the files on different operating systems or on a remote server, it is good to package the files with Docker.
+### Summary: I made all the files available from Docker In order to avoid problems that would arise with installing the files on different operating systems or on a remote server, it is good to package the files with Docker.
 
 #### Steps to get the news on your computer:
 
