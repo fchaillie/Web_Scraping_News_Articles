@@ -1,4 +1,4 @@
-## Getting the news articles from the crypto exchange site OKX between the chosen dates
+## Getting news articles from the crypto exchange site OKX for a chosen period
 
 ### Summary: All the files here create a container on Docker from which you download a package in a virtual environment on your operating system that avoids problems that could arise if you installed directly all the files on your operating system.
 
