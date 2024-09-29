@@ -12,7 +12,7 @@
 
 4. **Run this in your terminal to create the set up on the Docker site for download:**
 
-        docker build -t okx_news_img .
+        docker build -t okx_news_img
 
 5. **Finally run this in your terminal to get the news articles between your chosen dates with the excel file name you want:**
 
