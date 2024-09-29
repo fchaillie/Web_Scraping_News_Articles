@@ -1,8 +1,6 @@
-## Web scraping news articles stored on customized excel files
+## Web scraping financial news to customized excel files
 
-### Summary: Here is below an example of using scripts with the Docker Desktop application to help you get information (news articles in this case) with any operating system you may have.
-
-#### Steps to web scrape news articles from a crypto exchange site:
+### Summary: Here is below an example of using scripts with the Docker Desktop application to help you get information (financial news in this case) with any operating system you may have.
 
 1. **Install all the files from this repository in a folder with no extra file in it**
 
@@ -12,8 +10,8 @@
 
         docker build -t cool_news_img .
 
-4. **Finally run this command to get the news articles in an excel file in a folder you name here for the time period you choose. The image name needs to be followed by the .py file, the start date, the end date and the name of the folder. Enjoy !**
+4. **Finally run this command to get the financial news in an excel file in a folder you name here for the time period you choose. The image name needs to be followed by the .py file, the start date, the end date and the name of the folder. Enjoy !**
 
         docker run -v .:/app cool_news_img python Web_scraping_news_articles_script.py 2024-05-01 2024-07-01 Name_of_file
 
-5. **Please contact me for web scraping anything you want off the net !
+5. **Please contact me for web scraping tasks !
