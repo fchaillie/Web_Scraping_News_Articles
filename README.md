@@ -4,7 +4,7 @@
 
 #### Steps to web scrape the news articles from the OKX site:
 
-1. **Install all the files from this repository on your computer in a folder with no other file in it** 
+1. **Install all the files from this repository on your computer in a folder with no other file in it**
 
 2. **Install, sign up and open the Docker Desktop application on your computer**
 
